@@ -35,7 +35,7 @@ const createChatLi = (message, className) => {
 };
 
 const generateResponse = (chatElement) => {
-    const SERVER_URL = "https://flask-bot-mobelli.onrender.com//get-response";
+    const SERVER_URL = "https://mobelli-1.onrender.com//get-response";
     const messageElement = chatElement.querySelector("p");
     const userId = getUserId();
 
